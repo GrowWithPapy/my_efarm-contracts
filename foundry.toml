@@ -31,3 +31,5 @@ base = "${BASE_RPC_URL}"
 [etherscan]
 base_sepolia = { key = "${BASESCAN_API_KEY}", chain = 84532 }
 base = { key = "${BASESCAN_API_KEY}", chain = 8453 }
+
+bytecode_hash = "none"
