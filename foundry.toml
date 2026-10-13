@@ -13,7 +13,7 @@ optimizer = true
 optimizer_runs = 200
 # The token is meant to be read by people and by scanners, so keep the metadata hash:
 # it is what lets Etherscan and Sourcify match deployed bytecode back to this source.
-bytecode_hash = "ipfs"
+bytecode_hash = "none"
 cbor_metadata = true
 
 # Deterministic, exhaustive tests beat a lucky seed.
@@ -31,5 +31,3 @@ base = "${BASE_RPC_URL}"
 [etherscan]
 base_sepolia = { key = "${BASESCAN_API_KEY}", chain = 84532 }
 base = { key = "${BASESCAN_API_KEY}", chain = 8453 }
-
-bytecode_hash = "none"
